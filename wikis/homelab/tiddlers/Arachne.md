@@ -1,6 +1,6 @@
 ![](#arachne-log.svg)
 
-[FlyPie](#FlyPie) 的 Homelab 專案代號。
+[FlyPie](#FlyPie) 的 Homelab 專案代號，關於專案的戰略構想請見：[Homelab 戰略](<#Homelab 戰略>)。
 
 ## 命名
 

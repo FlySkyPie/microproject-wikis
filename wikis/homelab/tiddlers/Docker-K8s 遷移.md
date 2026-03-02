@@ -1,0 +1,1 @@
+自 2025-12-23 起，將服務從 [Beta 節點](<#Beta 節點>)的 Docker Swarm 遷移到 [Delta 節點](<#Delta 節點>)的過程。

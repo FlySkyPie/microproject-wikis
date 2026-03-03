@@ -1,0 +1,1 @@
+ASAM OpenDRIVE 是一種[高精度地圖](#高精度地圖)檔案格式，副檔名為： `.xodr`。它提供一個層次化、可擴充的資料模型，能描述道路幾何、車道結構、交通管制、路面材質等靜態資訊，是模擬、測試與驗證（Simulation, Verification, Validation, SVV）環境中最常用的路網格式之一。

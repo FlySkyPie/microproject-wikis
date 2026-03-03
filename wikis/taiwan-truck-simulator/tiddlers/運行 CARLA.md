@@ -26,8 +26,8 @@ pip3 install carla
 
 ```shell
 # Run generate Terminal A 
-python run PythonAPI/examples/generate_traffic.py  
+python PythonAPI/examples/generate_traffic.py  
 
 # Terminal B
-python run PythonAPI/examples/manual_control.py  
+python PythonAPI/examples/manual_control.py  
 ```

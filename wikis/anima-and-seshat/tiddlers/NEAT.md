@@ -1,0 +1,1 @@
+NEAT (NeuroEvolution of Augmenting Topologies) 是一種進化演算法，專門用於建立和最佳化人工神經網路結構。與傳統神經網路不同，NEAT不僅最佳化網路權重，還能動態調整網路拓撲結構。

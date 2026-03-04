@@ -1,4 +1,4 @@
-專案目的為使用 [BNN](#BNN) 搭建人工智慧，其人工智慧型態比較接近 [Thinking Humanly](<#Thinking Humanly>)。
+專案目的為使用 [BNN](#BNN) 搭建人工智慧，其人工智慧型態為 [Thinking Humanly](<#Thinking Humanly>)。
 
 ## 命名
 

@@ -1,7 +1,9 @@
-專案目的為建造 [Acting Humanly](<#Acting Humanly>) 型人工智慧，涉及技術包括但不限於：
+其人工智慧型態為 [Acting Humanly](<#Acting Humanly>)，涉及技術包括但不限於：
 
-- LLM
-- TTS
+- LLM (Large Language Models)
+- TTS (Text to Speech)
+
+關於具體應用請見條目：[Anima 應用](<#Anima 應用>)。
 
 ## 命名
 

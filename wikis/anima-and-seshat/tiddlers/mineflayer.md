@@ -1,0 +1,1 @@
+mineflayer 是一個 Javascript 函式庫，用以模擬 Minecraft 客戶端，從而實現腳本程序化控制的玩家。

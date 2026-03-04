@@ -1,0 +1,1 @@
+BNN Runtime 是指將 [BNN](#BNN) 作為 Agent Policy 運行的實體。

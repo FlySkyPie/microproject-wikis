@@ -1,0 +1,1 @@
+MineDojo Voyager 是一篇論文，利用 GPT-4 （即 LLM） 搭配 [mineflayer](#mineflayer) 來實現「不仰賴預編知識解決 Minecraft 遊戲內的複雜問題」。

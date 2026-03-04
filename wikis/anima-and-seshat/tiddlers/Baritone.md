@@ -1,0 +1,1 @@
+Baritone 是一種 Minecraft 自動化 Mod （即遊戲外掛）。

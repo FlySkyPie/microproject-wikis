@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg width="191.29mm" height="90.03mm" version="1.1" viewBox="0 0 191.29 90.03" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker id="marker2758" overflow="visible" markerHeight="6.155385" markerWidth="5.3244081" orient="auto-start-reverse" preserveAspectRatio="xMidYMid" viewBox="0 0 5.3244081 6.1553851">
+   <path transform="scale(.5)" d="m5.77 0-8.65 5v-10z" fill="context-stroke" fill-rule="evenodd" stroke="context-stroke" stroke-width="1pt"/>
+  </marker>
+ </defs>
+ <g transform="translate(-6.2549 -33.54)" stroke-linecap="round" stroke-linejoin="round">
+  <g fill="#fff" stroke="#000">
+   <rect x="6.3049" y="33.59" width="191.19" height="89.93" stroke-width=".1" style="paint-order:fill markers stroke"/>
+   <g stroke-width=".5">
+    <rect x="114.25" y="41.317" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="133.08" y="41.317" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="151.92" y="41.317" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="170.75" y="41.317" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="114.25" y="60.15" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="133.08" y="60.15" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="151.92" y="60.15" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="170.75" y="60.15" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="114.25" y="78.983" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="133.08" y="78.983" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="151.92" y="78.983" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="170.75" y="78.983" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="114.25" y="97.816" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="133.08" y="97.816" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="151.92" y="97.816" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="170.75" y="97.816" width="18.833" height="18.833" style="paint-order:fill markers stroke"/>
+    <rect x="12.653" y="41.067" width="37.666" height="37.666" style="paint-order:fill markers stroke"/>
+    <rect x="50.319" y="41.067" width="37.666" height="37.666" style="paint-order:fill markers stroke"/>
+    <rect x="12.653" y="78.733" width="37.666" height="37.666" style="paint-order:fill markers stroke"/>
+    <rect x="50.319" y="78.733" width="37.666" height="37.666" style="paint-order:fill markers stroke"/>
+   </g>
+   <path d="m93.889 78.864h14.214" marker-end="url(#marker2758)" style="paint-order:fill markers stroke"/>
+  </g>
+  <g fill="#000000" font-family="'Noto Sans'">
+   <text x="26.491306" y="66.14328" font-size="17.464px" stroke-width="1.547" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="26.491306" y="66.14328" fill="#000000" font-family="'Noto Sans'" stroke-width="1.547">0</tspan></text>
+   <g font-size="8.732px" stroke-width=".7735">
+    <text x="121.16917" y="53.855057" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="121.16917" y="53.855057" fill="#000000" font-family="'Noto Sans'" stroke-width=".7735">0</tspan></text>
+    <text x="159.39423" y="53.850689" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="159.39423" y="53.850689" fill="#000000" font-family="'Noto Sans'" stroke-width=".7735">1</tspan></text>
+    <text x="121.18664" y="91.560562" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="121.18664" y="91.560562" fill="#000000" font-family="'Noto Sans'" stroke-width=".7735">2</tspan></text>
+    <text x="158.88777" y="91.516899" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="158.88777" y="91.516899" fill="#000000" font-family="'Noto Sans'" stroke-width=".7735">3</tspan></text>
+   </g>
+   <g font-size="17.464px" stroke-width="1.547">
+    <text x="65.275208" y="66.134552" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="65.275208" y="66.134552" fill="#000000" font-family="'Noto Sans'" stroke-width="1.547">1</tspan></text>
+    <text x="26.526234" y="103.88807" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="26.526234" y="103.88807" fill="#000000" font-family="'Noto Sans'" stroke-width="1.547">2</tspan></text>
+    <text x="64.262306" y="103.80075" style="paint-order:fill markers stroke" xml:space="preserve"><tspan x="64.262306" y="103.80075" fill="#000000" font-family="'Noto Sans'" stroke-width="1.547">3</tspan></text>
+   </g>
+  </g>
+ </g>
+</svg>

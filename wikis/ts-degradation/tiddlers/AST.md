@@ -1,0 +1,1 @@
+在計算機科學中，抽象語法樹（Abstract Syntax Tree，AST），或簡稱語法樹（Syntax tree），是原始碼語法結構的一種抽象表示。

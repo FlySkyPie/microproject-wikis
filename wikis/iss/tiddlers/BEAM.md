@@ -1,0 +1,1 @@
+BEAM (Bigelow Expandable Activity Module) 是一個實驗性的[居住模組](#居住模組)，屬於[美國區段](#美國區段)。

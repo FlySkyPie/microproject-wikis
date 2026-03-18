@@ -1,0 +1,1 @@
+國際對接系統標準 (IDSS, International Docking System Standard) 是太空船對接系統的國際標準。它由國際太空站多邊協調委員會代表國際太空站合作夥伴組織（包括美國國家航空暨太空總署（NASA）、俄羅斯太空總署（Roscosmos）、日本宇宙航空研究開發機構（JAXA）、歐洲太空總署（ESA）和加拿大太空總署）制定。

@@ -1,1 +1,0 @@
-USOS (US Orbital Segment)

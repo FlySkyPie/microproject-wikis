@@ -1,0 +1,1 @@
+Poisk 也被稱作 MRM 2 (Mini-Research Module 2)，屬於[俄羅斯區段](#俄羅斯區段)的[居住模組](#居住模組)。

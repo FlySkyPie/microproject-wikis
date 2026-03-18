@@ -1,1 +1,0 @@
-ROS (Russian Orbital Segment)

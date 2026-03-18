@@ -1,0 +1,1 @@
+控制力矩陀螺儀 (CMG, control moment gyroscope)

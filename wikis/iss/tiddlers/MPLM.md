@@ -1,0 +1,1 @@
+多用途後勤艙 (MPLM, Multi-Purpose Logistics Module) 是一種大型加壓​​容器，曾用於太空梭任務，負責運送貨物到[國際太空站](#ISS)。兩個 MPLM 在太空梭貨艙內完成了十幾次往返，最初與國際太空站的[團結號](#Unity)節點艙對接，後來又與[和諧號](#Harmony)節點艙對接。對接後，物資被卸載，實驗結束後，實驗結束的物品和廢棄物被重新裝載。之後，MPLM 被送回太空梭貨艙，返回地球。這三個 MPLM 由阿萊尼亞航空航太公司為義大利航太局（ASI）建造，分別命名為 [Leonardo](#Leonardo)、Raffaello 和 Donatello。

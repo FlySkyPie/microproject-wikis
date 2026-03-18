@@ -1,0 +1,1 @@
+Canadarm2 也被稱為 SSRMS (Space Station Remote Manipulator System)

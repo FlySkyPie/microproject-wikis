@@ -1,0 +1,1 @@
+Dextre 也稱為 SPDM (Special Purpose Dexterous Manipulator)

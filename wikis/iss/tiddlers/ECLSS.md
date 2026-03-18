@@ -1,0 +1,1 @@
+ECLSS (Environmental Control and Life Support System) 是[國際太空站](#ISS)的關鍵組成部分，負責為太空人維持一個安全宜居的環境，使其環境類似於地球，氣壓與海平面相當。維持類似地球的大氣環境能夠提高太空人的舒適度和安全性，而且比純氧環境安全得多。

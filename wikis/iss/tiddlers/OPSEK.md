@@ -1,0 +1,1 @@
+軌道導航組合暨實驗設施 (OPSEK, Orbital Piloted Assembly and Experiment Complex) 是俄國規劃作為國際太空站的繼承者，其主要目的是支援深太空探索。該計劃已於2017年取消，其替代者為 [ROSS](#ROSS)。 

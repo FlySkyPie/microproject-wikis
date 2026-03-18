@@ -1,1 +1,6 @@
 命運號實驗艙 (Destiny) 也被稱為 U.S. Lab，屬於[美國區段](#美國區段)的[居住模組](#居住模組)。
+
+連結關係：
+
+- 前方 (Forward)：[Harmony](#Harmony)
+- 後方 (Aft)：[Unity](#Unity)

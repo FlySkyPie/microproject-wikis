@@ -1,0 +1,1 @@
+國際太空站 (ISS, International Space Station) 是一個在近地軌道上運行的科研設施。

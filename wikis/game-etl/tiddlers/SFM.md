@@ -1,0 +1,1 @@
+運動回復結構 (SFM, Structure-from-Motion) 是一種攝影測量測距成像技術，用於從二維影像序列中估計三維結構，並可結合局部運動訊號。有時亦被稱作 3D 重建 (3D Reconstruction)。

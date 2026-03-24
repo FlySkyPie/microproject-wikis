@@ -1,0 +1,1 @@
+在軟體架構中，Package by Feature（依功能封裝）是一種組織程式碼的策略。簡單來說，它主張「把屬於同一個業務功能的所有程式碼放在同一個資料夾裡」。概念上與 [Package By Layer](<#Package By Layer>) 相對，但是實務上經常伴隨 [Package By Layer](<#Package By Layer>) 使用：先 Package by Feature 再 [Package By Layer](<#Package By Layer>)。

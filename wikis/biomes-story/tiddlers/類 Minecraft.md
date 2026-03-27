@@ -1,0 +1,1 @@
+類 Minecraft (Minecraft-like) 亦被稱作 Minecraft 複製品 (Minecraft clone)、啟發自 Minecraft (Minecraft-inspired)，為一種遊戲種類。指遊戲通常有著程序化生成方塊世界、沙盒、建造、生存...等等類似於 Minecraft 的遊戲內容，但是獨立於 Minecraft 的軟體，亦與 Mojang、Microsoft 或 Minecraft 主程式無直接關係。

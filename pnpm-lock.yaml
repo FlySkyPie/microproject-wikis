@@ -354,6 +354,39 @@ importers:
         specifier: ^1.5.0
         version: 1.6.1(@types/node@25.3.3)
 
+  wikis/pca:
+    devDependencies:
+      '@types/cli-progress':
+        specifier: ^3.11.5
+        version: 3.11.6
+      '@types/fs-extra':
+        specifier: ^11.0.4
+        version: 11.0.4
+      '@types/jsdom':
+        specifier: ^21.1.6
+        version: 21.1.7
+      cli-progress:
+        specifier: ^3.12.0
+        version: 3.12.0
+      fs-extra:
+        specifier: ^11.2.0
+        version: 11.3.4
+      jsdom:
+        specifier: ^24.0.0
+        version: 24.1.3
+      tiddlywiki:
+        specifier: ^5.3.3
+        version: 5.3.8
+      typescript:
+        specifier: ^5.2.2
+        version: 5.9.3
+      vite:
+        specifier: ^5.2.8
+        version: 5.4.21(@types/node@25.3.3)
+      vite-node:
+        specifier: ^1.5.0
+        version: 1.6.1(@types/node@25.3.3)
+
   wikis/taiwan-truck-simulator:
     devDependencies:
       '@types/cli-progress':

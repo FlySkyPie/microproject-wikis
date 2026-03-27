@@ -1,0 +1,34 @@
+以下為 [Biomes Story](<#Biomes Story>) 的組件或相關專案：
+
+- [voxeloo-light-kernelry](https://github.com/FlySkyPie/biomes-voxeloo-light-kernelry)
+  - Generator 專案（Python 生成 C++），可透過 [CPM.cmake](#CPM.cmake) 安裝。
+- [voxeloo-geometry](https://github.com/FlySkyPie/biomes-voxeloo-geometry)
+  - Generator 專案（Python 生成 C++），可透過 [CPM.cmake](#CPM.cmake) 安裝。
+- [OpenSimplexNoise](https://github.com/FlySkyPie/OpenSimplexNoise)
+  - Fork 後加入 `CMakeLists.txt` 使其支援透過 [CPM.cmake](#CPM.cmake) 安裝。
+- [tomasakeninemoeller](https://github.com/FlySkyPie/tomasakeninemoeller)
+  - Fork 後加入 `CMakeLists.txt` 使其支援透過 [CPM.cmake](#CPM.cmake) 安裝。
+- [Voxeloo](https://github.com/FlySkyPie/biomes-voxeloo)
+  - C++ 專案但實做了 Javascript 和 Python 的綁定層，推測其意義為"Voxel Object-Oriented"
+- [VoxelooPy](https://github.com/FlySkyPie/biomes-voxeloo-py)
+  - Voxeloo 的 Python 套件封裝，用以將 CMake 模組轉換成 Python 模組（可透過 pip 安裝）。
+- [Voxeloo WASM](https://github.com/FlySkyPie/biomes-voxeloo-wasm)
+  - Voxeloo 的 Javascript 套件封裝，用以將 CMake 模組轉換成 Javascript 模組（可透過 npm 安裝）。
+- [Cayley](https://github.com/FlySkyPie/biomes-cayley-rs)
+  - 由 Rust 撰寫，提供了比 Voxeloo 更好的 Javascript 和 Python 的綁定層。
+- [AQL (Asset Query Language) utilities](https://github.com/FlySkyPie/biomes-aql-utils)
+  - AQL 為暫定命名，在 [Biomes](#Biomes) 內僅稱呼 `lang` 。
+  - Generator 專案（Python 生成 Typescript），同時打包了一個由 `VoxelooPy` 編譯而來的 Native 執行檔。
+  - 該執行檔本質是一個素材實時生成器，讀取指令並從原始素材建置諸如 glTF 的檔案。
+- [Galois Shader](https://github.com/FlySkyPie/biomes-galois-shader)
+  - 封裝 Shader 的 Three.js Material。
+  - Generator 專案（Rust 生成 Typescript），但是複雜度跟數量不高，主要是嵌入用於單體架構下實時更新的程式碼，預計日後予以移除，僅保留 Typescript 的部份。
+- [Galois](https://github.com/FlySkyPie/biomes-galois)
+  - 素材處理相關的 Typescript 模組。
+  - Monorepo 內亦包含了用來預覽遊戲素材的前端網頁與後端伺服器。
+- [Biomes Zod](https://github.com/FlySkyPie/biomes-zod)
+  - Biomes 客製化版本的 Zod。
+- [Assets](https://github.com/FlySkyPie/biomes-assets)
+  - 以 Git LFS 儲存的各式遊戲素材。
+- [Cayley.js](https://github.com/FlySkyPie/biomes-cayley-js)
+  - 封裝了Cayley WASM 的實作，並且包含了一些單元測試跟性能測試案例。

@@ -1,0 +1,1 @@
+Game Developers Conference (GDC, Game Developers Conference) 是規模最大的遊戲開發者年度專業性質會議與展覽，提供遊戲開發者間的技術交流、獲取靈感以及交友聯誼平台。

@@ -1,0 +1,9 @@
+- 定義：單詞之間以連字符（`-`）分隔，所有字母均小寫，有許多另外的別稱 spinal-case,Train-Case,Lisp-case
+- 範例：
+  - `user-name`
+  - `sell-power-request`
+  - `start-date`
+- 常見應用：
+  - URL 和 HTML 屬性命名（如 `data-attribute`）。
+  - 前端框架中的 CSS 類名（如 `my-component`）。
+  - 強調跨環境兼容性，特別是在 Web 開發中。

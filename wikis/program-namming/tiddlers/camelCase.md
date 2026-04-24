@@ -1,0 +1,9 @@
+- 定義：第一個單詞小寫，後續每個單詞首字母大寫，單詞之間不使用任何分隔符，看起來像是駝峰一樣，可以進一步細分為 upper camel case，與lower camel case  差別在於開頭第一個字是否為大寫
+- 範例：
+  - `userName`
+  - `sellPowerRequest`
+  - `startDate`
+- 常見應用：
+  - JavaScript、Java、C# 等語言中的變數與函式命名。
+  - JSON 格式的屬性名稱。
+  - 強調簡潔並與其他命名規則有所區隔。

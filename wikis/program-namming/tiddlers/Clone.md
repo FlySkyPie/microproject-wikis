@@ -1,0 +1,8 @@
+- 定義：起源於 1903 年（植物學），指從母體分支移植培育。1970 年代用於基因複製。1994 年出現在 Linux system call。
+- 語意重點：強調「個體繁殖」或「從現有實體產生一模一樣的新個體」。
+- 範例：
+  - Git `clone`：複製整個 Git 儲存庫。
+  - .NET `Object.MemberwiseClone()`：執行物件的淺層複製 (Shallow Copy)。
+- 常見應用：
+  - Linux system call `clone(2)`。
+  - 軟體或遊戲的仿製品（如 Diablo clone）。

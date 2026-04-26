@@ -1,0 +1,6 @@
+- 定義：將東西分開來的機械裝置、分隔物或符號。
+- 電腦科學例子：
+  - `String.Join(separator, ...)`：連接字串。
+  - `Path.DirectorySeparatorChar`：分隔資料夾名稱。
+- 日常生活例子：電池正負極的阻隔物、乳脂分離器。
+- 相關概念：[Delimiter](<#Delimiter (分界點)>)

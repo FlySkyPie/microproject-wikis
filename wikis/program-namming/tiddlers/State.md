@@ -1,0 +1,10 @@
+- 定義：指人或物在特定時間點的暫時屬性、狀況、形式或物理形態。在電腦科學中，常用於描述資訊系統或程式的狀態，以及記憶事件歷程的功能。
+- 語意傾向：側重於「個體內部的狀態屬性」。
+- 範例：
+  - [finite-state machine](<#finite-state-machine>)：有限狀態機。
+  - state of matter：物質狀態（如固態、液態、氣態）。
+  - .NET Threading `ThreadState`：如 Running, Stopped。
+  - .NET Data `ConnectionState`：如 Closed, Open。
+- 衍生詞彙：
+  - stateful：有狀態的。
+  - stateless：無狀態的。

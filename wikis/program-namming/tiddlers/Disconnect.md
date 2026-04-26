@@ -1,0 +1,5 @@
+- 定義：切斷（東西中間的）連結。語源來自拉丁文。
+- 電腦科學例子：
+  - .NET `Socket.Disconnect()`
+- 日常生活例子：移除汽車電池 (disconnect a car battery)、移除 PS4 手把。
+- 相關概念：[Detach](<#Detach (分開)>)

@@ -1,0 +1,6 @@
+- 定義：在電腦領域中，用來標記資料區塊或資料流起始、終結點的字元。
+- 相關概念字：
+  - [Separator](<#Separator (分隔器)>)：一般的分隔物。
+  - [Divider](<#Divider (間隔物)>)：空間區塊中的分隔物。
+  - [Splitter](<#Splitter>)：UI 畫面分割元件。
+  - [Break](<#Break>)：格式上的斷行或斷頁。

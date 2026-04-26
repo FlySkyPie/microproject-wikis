@@ -1,0 +1,7 @@
+- 定義：從大塊東西上削下小塊。語源來自古法文，意指「碎片」或「擊碎」。
+- 特點：通常指從整體中切出寬薄片狀的小塊。
+- 電腦科學例子：
+  - .NET `Memory<T>.Slice()`
+  - "array slicing" 從陣列中切出小陣列。
+- 日常生活例子：切洋蔥 (slice an onion)、切鳳梨 (slice a pineapple)。
+- 相關概念：[Split](<#Split (分段)>)

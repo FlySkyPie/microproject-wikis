@@ -1,0 +1,8 @@
+- **定義**：在語義上偏向「外部 (Extrinsic)」或「關係 (Relational)」屬性。指的是由「與其它物件的關係」賦予此物件的特性。
+- **語源**：14 世紀後期，動詞意為「賦予、指派」，名詞意為「對某人的評價」。
+- **哲學觀點**：屬於 [extrinsic property](<#Intrinsic vs. Extrinsic Properties>)。
+- **科學範例**：物件的「重量」；是由該物件與所處「重力場」的關係所賦予的，受外部因素影響。
+- **程式應用**：
+  - 用於表達物件或元素的屬性。
+  - 常見於 [C# 的 Attribute 慣例](<#程式實作中的屬性命名慣例>)，用來加註元數據 (Metadata)。
+  - 在 [HTML 與 DOM 的差異](<#HTML Attribute 與 DOM Property>)中，指代 HTML 標籤上的靜態初始設定。

@@ -1,0 +1,6 @@
+- 定義：為了特別的目的，把東西分開來。
+- 電腦科學例子：
+  - .NET `ObjectContext.Detach(object)`
+  - Java `VirtualMachine.detach()`
+- 日常生活例子：在 iMovie 中分離聲音 (detach audio)、分開 Surface Book 螢幕與底座。
+- 相關概念：[Disconnect](<#Disconnect (分開)>)

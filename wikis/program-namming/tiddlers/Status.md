@@ -1,0 +1,7 @@
+- 定義：指情景、整體脈絡下的綜合判斷或法律/社會地位。在程式命名中，常用於表示一個動作的結果或事態的最終情況。
+- 語意傾向：側重於「就整體脈絡的綜合判斷；事態、情況的狀態」。
+- 範例：
+  - exit status：退出狀態。
+  - status bar：狀態列。
+  - .NET Net `HttpStatusCode`：如 OK, NotFound。
+  - .NET Threading `TaskStatus`：如 Created, Canceled。

@@ -1,0 +1,4 @@
+- 背景：線上程式競爭平台。
+- 命名特性：其程式碼樣板經常使用極簡的 [命名縮寫與簡寫](<#命名縮寫與簡寫>)。
+- 範例：
+  - `public int NumJewelsInStones(string J, string S)`：使用 `J` 代表 Jewel，`S` 代表 Stone。

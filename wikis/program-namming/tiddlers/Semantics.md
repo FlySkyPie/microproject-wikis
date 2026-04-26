@@ -1,0 +1,1 @@
+在程式命名的脈絡中，語意（Semantics）的研究相對薄弱。對於母語非英語的開發者，可以從「語源學 (Etymology)」的角度釐清字義，並區分字面意思 (Denotation) 與使用情景中的意思 (Connotation)。

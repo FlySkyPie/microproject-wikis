@@ -1,0 +1,1 @@
+在命名中表示「包含端點」。例如在 C# 中，若要表達「包含上限值」，可命名為 `inclusiveUpperBound`；在 Python 中則為 `inclusive_upper_bound`。

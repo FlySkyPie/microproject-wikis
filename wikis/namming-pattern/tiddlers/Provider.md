@@ -1,0 +1,1 @@
+Nest 的核心概念。許多基礎類別如 [Service](<#Service>)、[Repository](<#Repository>)、工廠和輔助類別都可以視為 Provider。其關鍵思想在於可以作為依賴項注入，由 Nest 執行環境負責處理物件之間的「接線」關係。

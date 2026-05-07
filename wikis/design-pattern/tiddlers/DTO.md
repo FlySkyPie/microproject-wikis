@@ -1,0 +1,1 @@
+DTO (Data transfer object)

@@ -1,0 +1,1 @@
+ECS（Entity-Component-System）架構是一種將「資料」與「邏輯」分離的軟體設計模式，常見於高效能遊戲開發。它由實體（Entity, ID）、組件（Component, 資料容器）與系統（System, 處理邏輯）組成，專注於快取友善與高並發，區別於傳統[物件導向](#OOP)。

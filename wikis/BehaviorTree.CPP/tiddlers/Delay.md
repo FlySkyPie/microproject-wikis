@@ -1,0 +1,1 @@
+Delay 節點會在指定的延遲時間 `delay_msec` 過後才 Tick 子節點。在等待期間或子節點處於 RUNNING 狀態時，它會回傳 RUNNING。

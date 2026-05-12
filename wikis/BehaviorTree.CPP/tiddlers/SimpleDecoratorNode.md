@@ -1,0 +1,1 @@
+這是在 C++ 中註冊自定義裝飾節點的一種簡化方式。開發者可以使用 `registerSimpleDecorator` 函數，傳入自定義的 Tick 邏輯與連接埠列表 (PortsList) 來快速建立裝飾器。

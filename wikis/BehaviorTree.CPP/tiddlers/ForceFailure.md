@@ -1,0 +1,1 @@
+不論子節點的回傳結果為何（除了 RUNNING 之外），ForceFailure 總是回傳 FAILURE。如果子節點處於 RUNNING 狀態，則此節點也會回傳 RUNNING。

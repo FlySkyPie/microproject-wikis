@@ -1,0 +1,1 @@
+此節點會持續執行子節點。只要子節點回傳 SUCCESS 或 RUNNING，此節點就會回傳 RUNNING；只有當子節點回傳 FAILURE 時，此節點才會回傳 FAILURE。

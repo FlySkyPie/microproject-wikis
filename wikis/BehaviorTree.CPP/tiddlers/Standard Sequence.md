@@ -1,3 +1,13 @@
-**Sequence** 是最基礎的順序節點。它在單次樹的 Tick（週期）中執行子節點。
+Standard 是最基本的序列節點，在同一個 Tick 內會盡可能向後執行。
 
-當一個子節點回傳 SUCCESS 時，下一個子節點會**立即**在同一個呼叫中被執行。如果子節點回傳 FAILURE，序列會「[Restart](<#Sequence Control Rules>)」（從第一個子節點重新開始）。
+| 當前 Tick 任一 Children 值 （尚未遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | - |
+| FAILURE | 是 | Root |
+| RUNNING | 是 | RUNNING Children |
+
+| 當前值 （已遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | ? |
+| FAILURE | 是 | Root |
+| RUNNING | - | RUNNING Children |

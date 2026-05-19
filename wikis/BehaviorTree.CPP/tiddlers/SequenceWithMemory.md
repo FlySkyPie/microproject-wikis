@@ -1,4 +1,13 @@
-**SequenceWithMemory** 用於不希望重複執行已經成功過的子節點的情況。
+**SequenceWithMemory** 用於不希望重複執行已經成功過的子節點的情況。其特點在於 FAILURE 時不會導致重頭開始，而是保留當前的執行進度。
 
-- **Tick again**：若子節點回傳 FAILURE，下次 Tick 時會從該失敗的節點繼續，而不會重新執行前面已成功的節點。
-- **範例**：一個巡邏機器人需要依序訪問 A、B、C 三個地點，若在前往 B 的途中失敗，它不會再次重新執行「前往 A」。
+| 當前 Tick 任一 Children 值 （尚未遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | - |
+| FAILURE | 是 | FAILURE Children |
+| RUNNING | 是 | RUNNING Children |
+
+| 當前值 （已遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | ? |
+| FAILURE | 是 | FAILURE Children |
+| RUNNING | - | RUNNING Children |

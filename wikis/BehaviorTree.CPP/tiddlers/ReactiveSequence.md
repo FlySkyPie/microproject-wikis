@@ -1,6 +1,13 @@
-**ReactiveSequence** 專為持續檢查「條件」而設計。
+**ReactiveSequence** 專為持續檢查「條件」而設計。其特點在於即使子節點回傳 RUNNING，下一個 Tick 依然強制從第一個 Child 重新檢查。
 
-與一般 Sequence 不同，當子節點回傳 RUNNING 時，ReactiveSequence 下次會選擇「[Restart](<#Sequence Control Rules>)」而非僅僅「Tick again」。這意味著它每一週期都會重新從第一個子節點開始檢查。
+| 當前 Tick 任一 Children 值 （尚未遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | - |
+| FAILURE | 是 | Root |
+| RUNNING | 是 | Root |
 
-**範例**：
-若使用 ReactiveSequence 檢查「敵人是否可見」並執行「靠近敵人」，一旦敵人消失（條件回傳 FAILURE），「靠近敵人」的動作會立即被中斷。
+| 當前值 （已遍歷所有 Children） | 結束當前 Tick | 下一個 Tick 的起始點 |
+| --- | :---: | --- |
+| SUCCESS | 否 | ? |
+| FAILURE | 是 | Root |
+| RUNNING | - | Root |

@@ -1,0 +1,1 @@
+SketchbookWar 是一個開發計畫，預計重複使用 [Sketchbook](#Sketchbook) 對於載具系統的完成度，並抽出 [OwnWar](#OwnWar) 的邏輯來實現 [載具建造戰鬥遊戲](#載具建造戰鬥遊戲)。

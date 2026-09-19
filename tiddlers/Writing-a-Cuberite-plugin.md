@@ -1,5 +1,3 @@
-# Writing a Cuberite plugin
-
 This article will explain how to write a basic plugin. It details basic requirements for a plugin, explains how to register a hook and bind a command, and gives plugin standards details.
 
 Let us begin. In order to begin development, we must firstly obtain a compiled copy of Cuberite, and make sure that the Core plugin is within the Plugins folder, and activated. Core handles much of the Cuberite end-user experience and gameplay will be very bland without it.

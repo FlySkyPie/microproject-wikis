@@ -1,5 +1,3 @@
-# Setting up the Lua-Language-Server (VSCode)
-
 This article will explain how to configure an IDE that is able to use the [Lua-Language-Server](https://github.com/LuaLS/lua-language-server). This article will show how it's done using Visual Studio Code, but it should work with any IDE that supports language servers.
 
 ## About Language Servers

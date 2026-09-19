@@ -1,5 +1,3 @@
-# Using ChunkStays
-
 A plugin may need to manipulate data in arbitrary chunks, and it needs a way to make the server guarantee that the chunks are available in memory.
 
 ## The problem

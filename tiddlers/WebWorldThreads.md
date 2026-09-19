@@ -1,5 +1,3 @@
-# Webserver vs World threads
-
 This article will explain the threading issues that arise between the webserver and world threads are of concern to plugin authors.
 
 Generally, plugins that provide webadmin pages should be quite careful about their interactions. Most operations on Cuberite objects requires synchronization, that Cuberite provides automatically and transparently to plugins - when a block is written, the chunkmap is locked, or when an entity is being manipulated, the entity list is locked. Each plugin also has a mutex lock, so that only one thread at a time may be executing plugin code.

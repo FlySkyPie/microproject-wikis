@@ -1,5 +1,3 @@
-# Info.lua file
-
 ## Contents
 
 - [Introduction](#introduction)

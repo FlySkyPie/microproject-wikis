@@ -1,5 +1,3 @@
-# Setting up the Decoda IDE
-
 This article will explain how to set up Decoda, an IDE for writing Lua code, so that you can develop Cuberite plugins with the comfort of an IDE.
 
 ## About Decoda

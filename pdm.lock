@@ -5,10 +5,32 @@
 groups = ["default"]
 strategy = []
 lock_version = "4.5.0"
-content_hash = "sha256:d4db7103b232c4fd139df78f17bbec91b60d43fbdf63a869c2932d0d620de515"
+content_hash = "sha256:e011e076cf97eb03e5582472ff5623eaf31a65df9f1f47c86664d6b6971f9ca2"
 
 [[metadata.targets]]
 requires_python = "==3.12.*"
+
+[[package]]
+name = "antlr4-python3-runtime"
+version = "4.13.2"
+summary = ""
+files = [
+    {file = "antlr4_python3_runtime-4.13.2-py3-none-any.whl", hash = "sha256:fe3835eb8d33daece0e799090eda89719dbccee7aa39ef94eed3818cafa5a7e8"},
+    {file = "antlr4_python3_runtime-4.13.2.tar.gz", hash = "sha256:909b647e1d2fc2b70180ac586df3933e38919c85f98ccc656a96cd3f25ef3916"},
+]
+
+[[package]]
+name = "beautifulsoup4"
+version = "4.15.0"
+summary = ""
+dependencies = [
+    "soupsieve",
+    "typing-extensions",
+]
+files = [
+    {file = "beautifulsoup4-4.15.0-py3-none-any.whl", hash = "sha256:d6f88de62e1d4e38ecb1077eb9724cd0eff29d2a08ca16a401e9b9e93f117cf9"},
+    {file = "beautifulsoup4-4.15.0.tar.gz", hash = "sha256:288e3ca7d54b06f2ac191970bc275c1939cb46d450b255bf6718b04aa37ab4f7"},
+]
 
 [[package]]
 name = "html2text"
@@ -17,6 +39,19 @@ summary = ""
 files = [
     {file = "html2text-2025.4.15-py3-none-any.whl", hash = "sha256:00569167ffdab3d7767a4cdf589b7f57e777a5ed28d12907d8c58769ec734acc"},
     {file = "html2text-2025.4.15.tar.gz", hash = "sha256:948a645f8f0bc3abe7fd587019a2197a12436cd73d0d4908af95bfc8da337588"},
+]
+
+[[package]]
+name = "luaparser"
+version = "4.2.0"
+summary = ""
+dependencies = [
+    "antlr4-python3-runtime",
+    "multimethod",
+]
+files = [
+    {file = "luaparser-4.2.0-py3-none-any.whl", hash = "sha256:f73b1a66ff51351d28f067348ebbb4533401fc761926654d0448e34531ce3a34"},
+    {file = "luaparser-4.2.0.tar.gz", hash = "sha256:315e1588b23500befaf824604c2d0ea75daf894b5507126636a8cfa9dc3d7636"},
 ]
 
 [[package]]
@@ -55,4 +90,62 @@ files = [
     {file = "lupa-2.8-cp39-abi3-musllinux_1_2_riscv64.whl", hash = "sha256:b9bddb09acfffb4f828f790f444b11dc0cca591afea1a244d9329eea2d20c003"},
     {file = "lupa-2.8-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:2e64acbbd47e9b82a64405a39e0d2b36a5a7dad8ab41c0f3437f572f7d282ba3"},
     {file = "lupa-2.8.tar.gz", hash = "sha256:d8022641b9ec8ecf2c5ecbe9f47e5a70e0b87c4b5ae921b92cb02a638e0acd08"},
+]
+
+[[package]]
+name = "markdownify"
+version = "1.2.3"
+summary = ""
+dependencies = [
+    "beautifulsoup4",
+    "six",
+]
+files = [
+    {file = "markdownify-1.2.3-py3-none-any.whl", hash = "sha256:a189a0bedfd14009030fde5f85bb6f77c56897cb839b5c25315dd7d4e3e290ba"},
+    {file = "markdownify-1.2.3.tar.gz", hash = "sha256:1a176f05522c8a2cb1dd3ab9d307dcdadbed5c26ae717855bfc42b3b6d38d937"},
+]
+
+[[package]]
+name = "mistletoe"
+version = "1.6.0"
+summary = ""
+files = [
+    {file = "mistletoe-1.6.0-py3-none-any.whl", hash = "sha256:53f9dfb859e9b2d309915d0f06c3876253d1e24d568d0b728a32679eb4f0a187"},
+    {file = "mistletoe-1.6.0.tar.gz", hash = "sha256:92f066c4720a25fa24bf260e6413702bbff3a5b8a93af314cb6cd8589726a8e1"},
+]
+
+[[package]]
+name = "multimethod"
+version = "2.1"
+summary = ""
+files = [
+    {file = "multimethod-2.1-py3-none-any.whl", hash = "sha256:54b5256562351762a275dd65571b5d6db750848f1eb6bb21c61cb5ff2748b663"},
+    {file = "multimethod-2.1.tar.gz", hash = "sha256:c59e75fbe51516ed632d3df4b56df0876747be001c068d3ee1e83e9f65c2846f"},
+]
+
+[[package]]
+name = "six"
+version = "1.17.0"
+summary = ""
+files = [
+    {file = "six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"},
+    {file = "six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"},
+]
+
+[[package]]
+name = "soupsieve"
+version = "2.9.2"
+summary = ""
+files = [
+    {file = "soupsieve-2.9.2-py3-none-any.whl", hash = "sha256:8089a26fd974ca7a1f30276d3d8492ab266ab15af581642dfe8aa162e0c1c823"},
+    {file = "soupsieve-2.9.2.tar.gz", hash = "sha256:4a55d8cf158a9c2e587fa4922f1bbb91d68ac829e2d6f25403a85747c71daf74"},
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.16.0"
+summary = ""
+files = [
+    {file = "typing_extensions-4.16.0-py3-none-any.whl", hash = "sha256:481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"},
+    {file = "typing_extensions-4.16.0.tar.gz", hash = "sha256:dc983d19a509c94dba722ee6abd33940f7c05a89e243c47e907eb4db6f1a43e5"},
 ]

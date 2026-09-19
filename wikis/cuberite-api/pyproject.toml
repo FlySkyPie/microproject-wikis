@@ -1,0 +1,18 @@
+[project]
+name = "cuberite-api"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Wei Ji (FlySkyPie)", email = "c445dj544@gmail.com"},
+]
+dependencies = ["lupa>=2.8", "html2text>=2025.4.15", "luaparser>=4.2.0", "markdownify>=1.2.3", "mistletoe>=1.6.0", "commonmark>=0.9.2"]
+requires-python = "==3.12.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+
+[tool.pdm.scripts]
+convert.cmd="python -m scripts.tramsform_lua_to_md"

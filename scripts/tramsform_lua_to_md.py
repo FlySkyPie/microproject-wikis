@@ -13,6 +13,10 @@ TIDDLERS = BASE / "tiddlers"
 
 
 def write_tiddler(title: str, content: str):
+    # TODO also add fileds:
+    # created: 20260919063200672
+    # modified: 20260919063202485
+    # format: [UTC]YYYY0MM0DD0hh0mm0ss0XXX   (compact, 17-character UTC format)
     (TIDDLERS / f"{title}.md.meta").write_text(
         f"title: {title}\ntype: text/markdown\n", encoding="utf-8"
     )

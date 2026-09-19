@@ -1,5 +1,6 @@
 # Orchestrator: read Lua, parse, build AST, render, write
 
+from datetime import datetime, timezone
 from pathlib import Path
 
 from scripts.lua_to_ast import parse_hook, parse_class
@@ -12,13 +13,21 @@ CLASSES_DIR = BASE / ".agent-refs" / "APIDump" / "Classes"
 TIDDLERS = BASE / "tiddlers"
 
 
+def _utc_tiddler_ts() -> str:
+    """Compact 17-char UTC timestamp: YYYYMMDDhhmmssXXX (no separators)."""
+    now = datetime.now(timezone.utc)
+    return (
+        f"{now.year:04d}{now.month:02d}{now.day:02d}"
+        f"{now.hour:02d}{now.minute:02d}{now.second:02d}"
+        f"{now.microsecond // 1000:03d}"
+    )
+
+
 def write_tiddler(title: str, content: str):
-    # TODO also add fileds:
-    # created: 20260919063200672
-    # modified: 20260919063202485
-    # format: [UTC]YYYY0MM0DD0hh0mm0ss0XXX   (compact, 17-character UTC format)
+    ts = _utc_tiddler_ts()
     (TIDDLERS / f"{title}.md.meta").write_text(
-        f"title: {title}\ntype: text/markdown\n", encoding="utf-8"
+        f"title: {title}\ntype: text/markdown\ncreated: {ts}\nmodified: {ts}\n",
+        encoding="utf-8",
     )
     (TIDDLERS / f"{title}.md").write_text(content, encoding="utf-8")
     print(f"  [OK] {title}")

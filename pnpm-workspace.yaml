@@ -1,3 +1,5 @@
 packages:
   - wikis/*
   - utilities
+allowBuilds:
+  esbuild: true
